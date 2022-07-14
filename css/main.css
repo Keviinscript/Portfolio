@@ -1095,6 +1095,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(243 244 246 / var(--tw-border-opacity));
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-indigo-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(55 48 163 / var(--tw-bg-opacity));
@@ -1153,6 +1158,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
 }
 
+.bg-indigo-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 46 129 / var(--tw-bg-opacity));
+}
+
+.bg-purple-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(88 28 135 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
@@ -1166,21 +1181,89 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(59 130 246 / 0));
 }
 
-.from-gray-300 {
-  --tw-gradient-from: #d1d5db;
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(209 213 219 / 0));
+.from-purple-500 {
+  --tw-gradient-from: #a855f7;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(168 85 247 / 0));
+}
+
+.from-purple-800 {
+  --tw-gradient-from: #6b21a8;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(107 33 168 / 0));
+}
+
+.from-purple-900 {
+  --tw-gradient-from: #581c87;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(88 28 135 / 0));
+}
+
+.from-purple-400 {
+  --tw-gradient-from: #c084fc;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(192 132 252 / 0));
+}
+
+.from-purple-600 {
+  --tw-gradient-from: #9333ea;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(147 51 234 / 0));
 }
 
 .via-indigo-600 {
   --tw-gradient-stops: var(--tw-gradient-from), #4f46e5, var(--tw-gradient-to, rgb(79 70 229 / 0));
 }
 
+.via-purple-200 {
+  --tw-gradient-stops: var(--tw-gradient-from), #e9d5ff, var(--tw-gradient-to, rgb(233 213 255 / 0));
+}
+
+.via-purple-600 {
+  --tw-gradient-stops: var(--tw-gradient-from), #9333ea, var(--tw-gradient-to, rgb(147 51 234 / 0));
+}
+
+.via-purple-800 {
+  --tw-gradient-stops: var(--tw-gradient-from), #6b21a8, var(--tw-gradient-to, rgb(107 33 168 / 0));
+}
+
+.via-purple-500 {
+  --tw-gradient-stops: var(--tw-gradient-from), #a855f7, var(--tw-gradient-to, rgb(168 85 247 / 0));
+}
+
+.via-purple-700 {
+  --tw-gradient-stops: var(--tw-gradient-from), #7e22ce, var(--tw-gradient-to, rgb(126 34 206 / 0));
+}
+
 .to-indigo-700 {
   --tw-gradient-to: #4338ca;
 }
 
-.to-blue-200 {
-  --tw-gradient-to: #bfdbfe;
+.to-\[\] {
+  --tw-gradient-to: ;
+}
+
+.to-\[\#ffe2a5\] {
+  --tw-gradient-to: #ffe2a5;
+}
+
+.to-purple-300 {
+  --tw-gradient-to: #d8b4fe;
+}
+
+.to-purple-400 {
+  --tw-gradient-to: #c084fc;
+}
+
+.to-purple-500 {
+  --tw-gradient-to: #a855f7;
+}
+
+.to-purple-900 {
+  --tw-gradient-to: #581c87;
+}
+
+.to-indigo-900 {
+  --tw-gradient-to: #312e81;
+}
+
+.to-purple-700 {
+  --tw-gradient-to: #7e22ce;
 }
 
 .bg-cover {
@@ -1443,6 +1526,21 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-blue-600 {
   --tw-text-opacity: 1;
   color: rgb(37 99 235 / var(--tw-text-opacity));
+}
+
+.text-purple-900 {
+  --tw-text-opacity: 1;
+  color: rgb(88 28 135 / var(--tw-text-opacity));
+}
+
+.text-\[\#ffe2a5\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 226 165 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .underline {
